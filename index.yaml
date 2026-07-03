@@ -1,0 +1,6 @@
+# JSW Redux custom map pack catalog.
+# Spec: docs/formats/MAP_REPO_CATALOG.md in the jswr repo.
+# Each pack: id, name, author, version (int, monotonic), blake2s (hex of
+# packs/<id>.jswp), size (bytes), description, optional cover +
+# min_game_version.
+packs: []
