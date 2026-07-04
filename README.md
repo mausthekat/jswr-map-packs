@@ -1,13 +1,13 @@
-# JSW Redux - Custom Map Packs
+# JSW Next - Custom Map Packs
 
 The official catalog of downloadable custom map packs for
-[Jet Set Willy: Redux](https://github.com/mausthekat/jswr).
+[Jet Set Willy: Next](https://github.com/mausthekat/jswr).
 
 Layout:
 
 ```
 index.yaml        # the catalog (fetched by the in-game Custom Maps browser)
-packs/<id>.jswp   # one bundled JSWP map pack per catalog entry
+packs/<id>.jsw    # one bundled JSWP map pack per catalog entry
 covers/<id>.png   # optional cover art
 ```
 
