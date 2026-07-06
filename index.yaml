@@ -6,7 +6,8 @@
 packs:
 - id: jsw2
   name: Jet Set Willy 2
-  version: 5
-  blake2s: 8b527be629b9b5f2fcc03f7178ad6882eef8668ce063f1c8b768366d660fe1a4
-  size: 331473
+  version: 6
+  blake2s: d4b694bffed998fbdca9ff22ff5d4776583d1a8dec00d4c622de308759138191
+  size: 331553
   description: A faithful, ROM-accurate recreation of Jet Set Willy 2 for JSW Next.
+  cover: covers/jsw2.png
