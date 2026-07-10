@@ -1,12 +1,13 @@
 # JSW Next custom map pack catalog.
 # Spec: docs/formats/MAP_REPO_CATALOG.md in the jswr repo.
-# Generated/updated by build_scripts/publish_map_pack.py - edit
-# free text (name/author/description) by hand, but keep version
-# monotonic and blake2s/size matching the actual packs/<id>.jsw.
+# Each pack: id, name, author, version (int, monotonic), blake2s (hex of
+# packs/<id>.jsw), size (bytes), description, optional cover +
+# min_game_version.
 packs:
 - id: jsw2
   name: Jet Set Willy 2
-  version: 6
-  blake2s: d4b694bffed998fbdca9ff22ff5d4776583d1a8dec00d4c622de308759138191
-  size: 331553
-  description: A faithful, ROM-accurate recreation of Jet Set Willy 2 for JSW Next.
+  author: D.P.Rowson, S.Wetherill, M.Smith
+  version: 7
+  blake2s: fdd59b95b1a45901f595b66d7eeac888eca8f3e2a3fd740170d9a898e496656a
+  size: 389038
+  description: The 1985 sequel, Jet Set Willy II...
