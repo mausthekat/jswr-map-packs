@@ -8,8 +8,8 @@ packs:
 - id: jsw2
   name: Jet Set Willy 2
   author: D.P.Rowson, S.Wetherill, M.Smith
-  version: 8
-  blake2s: 21181cec619df52ec29da449abd41b931e82916e6f32af0c326fb42f385d42a1
+  version: 9
+  blake2s: 148ffc07b55cc7551f7828ce098ad0c4fae45670768731680d7d633b35691268
   size: 391838
   blake2s_next: 65266d9779c44a2f75512e4addf948c8077c6ff481ea1c19fa61a228b97fbf59
   size_next: 459968
