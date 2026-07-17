@@ -8,9 +8,9 @@ packs:
 - id: jsw2
   name: Jet Set Willy 2
   author: D.P.Rowson, S.Wetherill, M.Smith
-  version: 9
-  blake2s: 148ffc07b55cc7551f7828ce098ad0c4fae45670768731680d7d633b35691268
-  size: 391838
-  blake2s_next: 65266d9779c44a2f75512e4addf948c8077c6ff481ea1c19fa61a228b97fbf59
-  size_next: 459968
+  version: 10
+  blake2s: f34bb3175eafa2d63a11c60bd570038534d7c37383f9fb7c1867886f7144079d
+  size: 391973
+  blake2s_next: 0aee813f391e399ec87b9106217b23594a819803c637431d6c9d03ce920993d1
+  size_next: 460569
   description: The 1985 sequel, Jet Set Willy II...
