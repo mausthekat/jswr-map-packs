@@ -1,16 +1,19 @@
 # JSW Next custom map pack catalog.
 # Spec: docs/formats/MAP_REPO_CATALOG.md in the jswr repo.
-# Each pack: id, name, author, version (int, monotonic), description,
-# optional min_game_version. blake2s/size cover packs/<id>.jsw (PC format);
-# blake2s_next/size_next cover packs/<id>.jswn (Next format, what the ZX
-# Spectrum Next downloads - PC-format rooms can't be rendered on-device).
+# Each pack: id, map_code (mandatory unique 4-char MapCode - the client's 8.3-safe
+# download/file stem, custom_maps/<map_code>.jsw), name, author, version (int,
+# monotonic), description, optional min_game_version. blake2s/size cover
+# packs/<id>.jsw (PC format); blake2s_next/size_next cover packs/<id>.jswn (Next
+# format, what the ZX Spectrum Next downloads - PC-format rooms can't render
+# on-device).
 packs:
 - id: jsw2
+  map_code: 2JSW
   name: Jet Set Willy 2
   author: D.P.Rowson, S.Wetherill, M.Smith
   version: 10
   blake2s: f34bb3175eafa2d63a11c60bd570038534d7c37383f9fb7c1867886f7144079d
   size: 391973
-  blake2s_next: 0aee813f391e399ec87b9106217b23594a819803c637431d6c9d03ce920993d1
-  size_next: 460569
+  blake2s_next: bbcd114619e34b17e2c719cb820c8c26a8817d4366234f34a2ebbded09781433
+  size_next: 472148
   description: The 1985 sequel, Jet Set Willy II...
